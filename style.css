@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bs-pink: #ff3082;
+    --bs-beguni: #da70d6;
+    --bs-blue: #0000ff;
+}
+section{
+    padding-bottom: 100px ;
+}
+#nav-area{
+    padding-top: 30px;
+}
+#banner-area{
+    padding: 80px 30px;
+    background: #feeae9;
+    border-radius: 8px;
+}
+.single-banner{
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    flex: 60%;
+    padding: 0 20px;
+}
+.banner-content h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.price {
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+    margin: 20px 0;
+    color:var(--bs-pink);
+}
+.price-sm{
+    font-size: 1.5rem;
+}
+.buy-btn {
+    color:#ffff;
+    text-decoration: none;
+    padding: 8px 18px;
+    background: #ff3082;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+}
+.buy-btn:hover{
+    background: #f11e73;
+    color: white;
+}
+.banner-image{
+    flex : 40%;
+    padding: 0 20px;
+}
+#categories{
+    display: flex;
+}
+.category{
+    flex:1;
+}
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 10px 0px;
+    color: white;
+    max-height: 120px;
+}
+.category img{
+    width: 90px;
+}
+.category .category-content h2 {
+    font-size: 2.3rem;
+}
+.category:nth-of-type(1){
+    background: var(--bs-warning);
+}
+.category:nth-of-type(2){
+    background: var(--bs-beguni);
+    margin: 0 25px;
+}
+.category:nth-of-type(3){
+    background: var(--bs-blue);
+}
+.category-main-title {
+    color: var(--bs-pink);
+    margin-bottom: 35px;
+    border-left: 3px solid var(--bs-pink);
+    padding-left: 10px;
+}
+#shoe-container{
+    display: flex;
+    justify-content: space-around;
+}
+.custom-card{
+    padding: 15px 20px;
+    transition: all .6s;
+}
+.custom-card:hover{
+    background: #feeae9;
+}
+.custom-card img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.product-title{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 600;   
+    color: rgb(44, 42, 42); 
+    margin-bottom: 15px;
+}
+#subcrib-section{
+    padding: 80px 0;
+    background: #feeae9;
+    border-radius: 8px;
+}
+.subcribe{
+    display: flex;
+    width: 350px;
+    margin: auto;
+}
